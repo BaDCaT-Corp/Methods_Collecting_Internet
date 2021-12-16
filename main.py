@@ -1,6 +1,5 @@
 import requests
 import json
-
 from pprint import pprint
 
 def print_hi(name):
