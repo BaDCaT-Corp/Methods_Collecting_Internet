@@ -2,7 +2,7 @@ import requests
 import json
 from pprint import pprint
 
-def print_hi(name):
+def print_hi():
     url = "https://oauth.vk.com/authorize"
 
     params = { 'client_id': '8028496',
@@ -34,4 +34,4 @@ def print_hi(name):
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print_hi()
