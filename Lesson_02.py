@@ -1,9 +1,6 @@
 import requests
-import json
 from pprint import pprint
 from bs4 import BeautifulSoup as bs     #Для обработки HTML
-from bs4 import BeautifulStoneSoup      #Для обработки XML
-import bs4                              #Для обработки и того и другого
 
 # Необходимо собрать информацию о вакансиях на вводимую должность (используем input или через аргументы
 # получаем должность) с сайтов HH и/или Superjob. Приложение должно анализировать несколько страниц сайта
@@ -81,9 +78,5 @@ def lesson_02():
                 link_next = url + next_list.get('href')
             except:
                 link_next = None
-
-
-
-
 
     pprint(job_list)
