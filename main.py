@@ -8,5 +8,3 @@ if __name__ == '__main__':
     # Lesson_02.lesson_02()
 
     Lesson_03.lesson_03()
-
-
